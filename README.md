@@ -34,7 +34,8 @@ The following techniques have been used in this project:
 * Naive Bayes
 * SVM
 * Linear Regression
-*  Results
+
+## Results
 
 The EDA revealed that the greatest number of complaints come from the Brooklyn borough and that the majority of complaints are related to misdemeanors. The report also found that a high percentage of complaints were related to offenses in the "Offenses Against Public Administration" category. Additionally, the report found that the data can be plotted on a map but it is hard to distinguish the crimes because of the number of data points in the data set.
 
