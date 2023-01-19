@@ -1,11 +1,43 @@
-## Report Summary
-The report discusses an Exploratory Data Analysis (EDA) of a dataset containing complaints received by the New York City Police Department. The report examines the "LAW_CAT_CD" column, which categorizes the complaints into misdemeanors, violations, and felonies. The report also looks at the "OFNS DESC" and "KY CD" columns, which provide a description of the offense committed and the three-digit offense classification code, respectively. The report also examines the "BORO_NM" column, which shows that the greatest number of complaints come from the Brooklyn borough. Additionally, the report looks at the "JURISDICTION_CODE" and "JURIS_DESC" columns, which describe the department that can solve the complaint and "CRM_ATPT_CPTD_CD" column which describes whether the crime was attempted or completed. The report also briefly mentions that the data can be plotted on a map to visualize the locations of the crimes but it is hard to distinguish the crimes because of the number of data points in the data set. <br />
+# Exploratory Data Analysis of New York City Police Department Complaints
+
+## Description
+
+This project is an Exploratory Data Analysis (EDA) of a dataset containing complaints received by the New York City Police Department. The dataset includes information on the classification of crime, location of the crime, and jurisdiction of the complaint. The goal of this project is to gain insights into the types of crime that are most commonly reported in New York City and identify patterns in the data.
+
+## Installation
+
+To run this project, you will need to have the following packages installed:
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* sklearn
+
+You can install these packages using pip by running the following command:<br>
+```Terminal
+pip install -r requirements.txt
+```
+## Usage
+
+To begin, download the dataset from the link provided in the project and store it in the same directory as the Jupyter notebook. The notebook includes code to load the dataset, perform cleaning and preprocessing, and perform the EDA. The notebook also includes code to visualize the data using various plots.
+
+## Usage
+
+To begin, download the dataset from the link provided in the project and store it in the same directory as the Jupyter notebook. The notebook includes code to load the dataset, perform cleaning and preprocessing, and perform the EDA. The notebook also includes code to visualize the data using various plots.
 
 ## Methodology
-With the help of this data set, we will be able to determine the following Two things: - 
-### Classification of Crime 
-o	This will be carried out using K-Means Clustering and Naïve Bayes to help us classify crime in 3 categories; Felony, Misdemeanors and Violations, that we can then employ in the objectives. <br />
 
+The following techniques have been used in this project:
 
-### Crime rate
-o	We will first create a graph of New York's crime rates by year, after which we will train the data to make predictions for two to three years. Here, we'll employ SVM and Linear Regression.
+* K-Means Clustering
+* Naive Bayes
+* SVM
+* Linear Regression
+*  Results
+
+The EDA revealed that the greatest number of complaints come from the Brooklyn borough and that the majority of complaints are related to misdemeanors. The report also found that a high percentage of complaints were related to offenses in the "Offenses Against Public Administration" category. Additionally, the report found that the data can be plotted on a map but it is hard to distinguish the crimes because of the number of data points in the data set.
+
+## Conclusion
+
+This project provides a high-level overview of the types of crime that are reported in New York City and highlights some key patterns in the data. Further analysis could be done to gain a deeper understanding of the data and identify specific areas of concern.
